@@ -1,0 +1,11 @@
+-classpath '/Users/Aiden/Documents/Code/training/build/classes/java/main:/Users/Aiden/Documents/Code/training/build/classes/groovy/main:/Users/Aiden/Documents/Code/training/build/resources/main:/Users/Aiden/.gradle/caches/4.7/generated-gradle-jars/gradle-api-4.7.jar:/Users/Aiden/.gradle/wrapper/dists/gradle-4.7-bin/73xux3q4721jgr4pjvqf9o30/gradle-4.7/lib/groovy-all-2.4.12.jar:/Users/Aiden/.gradle/wrapper/dists/gradle-4.7-bin/73xux3q4721jgr4pjvqf9o30/gradle-4.7/lib/gradle-installation-beacon-4.7.jar:/Users/Aiden/.gradle/caches/modules-2/files-2.1/edu.wpi.first.wpilibj/wpilibj-java/2018.3.2/e3191e0075cf0e5d1e953ff8b854db3c716ee73f/wpilibj-java-2018.3.2.jar:/Users/Aiden/.gradle/caches/modules-2/files-2.1/edu.wpi.first.ntcore/ntcore-java/4.0.0/990c1034226bc7fd81d2a21ee3de08ba477fbcfb/ntcore-java-4.0.0.jar:/Users/Aiden/.gradle/caches/modules-2/files-2.1/edu.wpi.first.wpiutil/wpiutil-java/3.1.0/14247d5f28aff116176e946ebc6861dcdd8631df/wpiutil-java-3.1.0.jar:/Users/Aiden/.gradle/caches/modules-2/files-2.1/org.opencv/opencv-java/3.2.0/c65e242eaf6ff4b086d45b0254f4511b6a072a65/opencv-java-3.2.0.jar:/Users/Aiden/.gradle/caches/modules-2/files-2.1/edu.wpi.first.cscore/cscore-java/1.2.0/c9566ae38df752482652a3d591fe7ede7fde7899/cscore-java-1.2.0.jar:/Users/Aiden/.gradle/caches/modules-2/files-2.1/openrio.mirror.third.ctre/CTRE-phoenix-java/5.2.1.1/469f4905ff49fe297be19c0c6724e27b444fbb5c/CTRE-phoenix-java-5.2.1.1.jar:/Users/Aiden/.gradle/caches/modules-2/files-2.1/openrio.mirror.third.kauailabs/navx-java/3.0.346/b29a636918ae632c90be1b0e4161ac7bd0853731/navx-java-3.0.346.jar'
+-d '/Users/Aiden/Documents/Code/training/build/docs/javadoc'
+-doctitle 'training API'
+-quiet 
+-windowtitle 'training API'
+'/Users/Aiden/Documents/Code/training/src/main/java/frc/team3100/robot/OI.java'
+'/Users/Aiden/Documents/Code/training/src/main/java/frc/team3100/robot/XBoxDrive.java'
+'/Users/Aiden/Documents/Code/training/src/main/java/frc/team3100/robot/Robot.java'
+'/Users/Aiden/Documents/Code/training/src/main/java/frc/team3100/robot/RobotMap.java'
+'/Users/Aiden/Documents/Code/training/src/main/java/frc/team3100/robot/subsystems/MainDrive.java'
+'/Users/Aiden/Documents/Code/training/src/main/java/frc/team3100/robot/commands/Drive.java'
