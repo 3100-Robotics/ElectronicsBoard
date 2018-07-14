@@ -1,4 +1,4 @@
-package frc.team3100.robot;
+package frc.team3100.robot.mapping;
 
 import edu.wpi.first.wpilibj.Joystick;
 

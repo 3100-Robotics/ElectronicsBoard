@@ -2,29 +2,32 @@ package frc.team3100.robot.commands;
 
 import edu.wpi.first.wpilibj.command.Command;
 import frc.team3100.robot.Robot;
-import frc.team3100.robot.RobotMap;
-import frc.team3100.robot.XBoxDrive;
+import frc.team3100.robot.mapping.RobotMap;
+import frc.team3100.robot.mapping.XBoxDrive;
 
-public class Drive extends Command {
+public class ClawDrive extends Command {
 
 
-    public Drive(){
-        super("Drive");
-        requires(Robot.drive);
+    public ClawDrive(){
+        super("ClawDrive");
+        requires(Robot.claw);
     }
-    private static XBoxDrive controller = RobotMap.driveControls;
 
+
+
+    @Override
     protected void initialize() {
 
     }
 
+    @Override
     protected void execute() {
 
     }
 
 
     protected boolean isFinished() {
-        return false;
+        return true;
     }
 
 
@@ -32,6 +35,7 @@ public class Drive extends Command {
 
     }
 
+    @Override
     protected void end() {
 
     }

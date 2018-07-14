@@ -1,7 +1,11 @@
-package frc.team3100.robot;
+package frc.team3100.robot.mapping;
 
-import edu.wpi.first.wpilibj.*;
+import edu.wpi.first.wpilibj.ADXRS450_Gyro;
+import edu.wpi.first.wpilibj.Solenoid;
+import edu.wpi.first.wpilibj.Spark;
+import edu.wpi.first.wpilibj.SpeedController;
 import edu.wpi.first.wpilibj.interfaces.Gyro;
+import frc.team3100.robot.mapping.XBoxDrive;
 
 
 public class RobotMap {
@@ -15,26 +19,22 @@ public class RobotMap {
 
 
     //     P W M
-    // RoboRIO PWM ports
-
+    private static int clawMotorChannel = 3;
 
 
     //     P C M
-    // Pneumatic Control Module Ports
-
+    private static int clawCloseChannel = 0;
+    private static int clawOpenChannel = 1;
 
     //     D I O
-    // RoboRIO DIO Ports
 
-
-
-
-    // Initalize versions of everything the robot interfaces with
+    // Initialize versions of everything the robot interfaces with
 
     //     X B O X   C O N T R O L L E R S
     public static XBoxDrive driveControls = new XBoxDrive(driveController);
 
     //     S P E E D   C O N T R O L L E R S
+
 
 
     //    P N E U M A T I C   C O N T R O L L E R S
