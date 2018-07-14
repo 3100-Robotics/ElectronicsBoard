@@ -13,7 +13,7 @@ public class ClawDrive extends Command {
         requires(Robot.claw);
     }
 
-
+    private static XBoxDrive controller = RobotMap.driveControls;
 
     @Override
     protected void initialize() {
@@ -22,12 +22,11 @@ public class ClawDrive extends Command {
 
     @Override
     protected void execute() {
-
     }
 
 
     protected boolean isFinished() {
-        return true;
+        return false;
     }
 
 

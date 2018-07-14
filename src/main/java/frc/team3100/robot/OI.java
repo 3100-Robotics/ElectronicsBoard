@@ -15,7 +15,6 @@ public class OI {
     // Defining state variables to log the states of different subsystems
 
 
-
     public OI() {
 
     }

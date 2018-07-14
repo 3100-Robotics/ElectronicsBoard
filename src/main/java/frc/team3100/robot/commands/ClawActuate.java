@@ -5,7 +5,6 @@ import frc.team3100.robot.Robot;
 
 public class ClawActuate extends Command {
 
-
     public ClawActuate(){
         super("ClawActuate");
     }
