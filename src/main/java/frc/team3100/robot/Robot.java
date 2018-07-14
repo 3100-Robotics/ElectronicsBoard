@@ -15,7 +15,6 @@ import frc.team3100.robot.subsystems.*;
 public class Robot extends IterativeRobot{
 
     // Define subsystems for Commands to access
-    public static Claw claw;
     public static MainDrive drive;
     public static OI oi;
 
@@ -25,7 +24,6 @@ public class Robot extends IterativeRobot{
 
     public void robotInit() {
         //Creates instances of all of the subsystems for the commands to access.
-        claw = new Claw();
         drive = new MainDrive();
 
         // ALWAYS initialize OI after subsystems

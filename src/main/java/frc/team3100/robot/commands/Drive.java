@@ -19,7 +19,7 @@ public class Drive extends Command {
     }
 
     protected void execute() {
-        Robot.drive.drive(controller.getLeftStickY(), controller.getRightStickX());
+
     }
 
 
@@ -29,7 +29,7 @@ public class Drive extends Command {
 
 
     protected void interrupted(){
-        Robot.drive.drive(0, 0);
+
     }
 
     protected void end() {
