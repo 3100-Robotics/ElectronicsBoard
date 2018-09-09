@@ -1,8 +1,5 @@
 package frc.team3100.robot;
 
-import edu.wpi.first.wpilibj.buttons.Button;
-import edu.wpi.first.wpilibj.buttons.JoystickButton;
-import frc.team3100.robot.commands.ClawActuate;
 import frc.team3100.robot.mapping.RobotMap;
 import frc.team3100.robot.mapping.XBoxDrive;
 
