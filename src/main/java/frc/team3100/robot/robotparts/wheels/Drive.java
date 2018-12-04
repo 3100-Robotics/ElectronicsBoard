@@ -1,27 +1,26 @@
-package frc.team3100.robot.commands;
+package frc.team3100.robot.robotparts.wheels;
 
 import edu.wpi.first.wpilibj.command.Command;
 import frc.team3100.robot.Robot;
 import frc.team3100.robot.mapping.RobotMap;
 import frc.team3100.robot.mapping.XBoxDrive;
 
-public class ClawDrive extends Command {
+public class Drive extends Command {
 
 
-    public ClawDrive(){
-        super("ClawDrive");
-        requires(Robot.claw);
+    public Drive(){
+        super("Drive");
+        requires(Robot.drive);
     }
-
     private static XBoxDrive controller = RobotMap.driveControls;
 
-    @Override
+
     protected void initialize() {
 
     }
 
-    @Override
     protected void execute() {
+        Robot.drive.driveArcade(controller.getLeftStickY(), controller.getLeftStickX());
     }
 
 
@@ -31,11 +30,14 @@ public class ClawDrive extends Command {
 
 
     protected void interrupted(){
-
+        Robot.drive.driveArcade(0, 0);
     }
 
-    @Override
     protected void end() {
 
     }
 }
+
+
+
+
